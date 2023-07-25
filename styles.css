@@ -1,0 +1,152 @@
+.gradient-background {
+    background: linear-gradient(89deg, #344869, #76a3ec);
+    background-size: 400% 400%;
+
+    animation: gradient-background 30s ease infinite;
+}
+
+@keyframes gradient-background {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+/* ¡HERO! Sección del hero*/
+#hero{
+    width: 100%;
+    height: 650px;
+}
+
+/* ¡HERO! DIV del hero. (Ocupa el mismo ancho que el contenedor) */
+.hero-container{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+/* ¡HERO! Hijos del DIV principal*/
+.hero-container > div{
+    width: 20%;
+    height: 45%;
+}
+/* ¡HERO! Primer div y sus hijos */
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10%;
+}
+
+/* ¡HERO! Nombre, iconos y boton de contacto. */
+.container1 > div{
+    height: 20%;
+}
+.my-name{
+    font-size: 52px;
+    font-weight: 100;
+    color: white;
+}
+.hero-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 25%;
+}
+.hero.icon{
+    width: 40px;
+    height: auto;
+    margin-left: 1%;
+    filter: invert(100%) sepia(0%) saturate(22%) hue-rotate(125deg) brightness(105%) contrast(100%);
+}
+.button-hero-contact {
+    background-color: transparent;
+    height: 5rem;
+    width: 85%;
+    border-radius: 2rem;
+    border: solid white 1px;
+}
+.contactme-button{
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+}
+
+/*¡HERO! Imagen de perfil. */
+.profile-picture-hero{
+    width: 80%;
+    height: auto;
+    rotate: -45deg;
+    border-radius: 50%;
+    transition: 2s;
+    animation: floating-picture 5s ease-in-out infinite;
+}
+@keyframes floating-picture {
+    0%, 100% {
+      transform: rotate(0);
+    }
+    25% {
+      transform: rotate(-1deg) scale(1.02);
+    }
+    50% {
+      transform: rotate(0) scale(1);
+    }
+    75% {
+      transform: rotate(1deg) scale(1.02);
+    }
+    100%{
+        transform: rotate(0) scale(1);
+    }
+  }
+.profile-picture-hero:hover{
+    scale: 1.1;
+}
+/* ¡HERO! Introducción en HERO */
+
+.container3{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10%;
+}
+
+/* FINAL HERO CABECERA */
+
+
+/* INICIO SALUDO */
+
+#saludo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.greetings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6rem;
+    width: 65%;
+    height: 400px;
+    color: black;
+}
+.greetings > h1{
+    font-size: 54px;
+    margin-top: 5rem;
+    color: #76A3EC;
+    font-weight: 500;
+}
+.divider-small{
+    width: 30%;
+    border-top: 3px solid #344869;
+    border-radius: 5px;
+}
+.greetings > p{
+    font-size: x-large;
+    text-align: center;
+    padding: 0 1rem 0 1rem;
+}
+
+/* FINAL SALUDO */
