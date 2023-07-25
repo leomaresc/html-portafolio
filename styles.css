@@ -205,6 +205,8 @@
 
 /* FIN DE HABILIDADES */
 
+/* INICIO DE CONTATOS */
+
 #contacto{
     width: 100%;
     height: auto;
@@ -213,13 +215,33 @@
     justify-content: center;
 }
 .container-contacto{
+    width: 50%;
     display: flex;
     flex-direction: column;
-
+    text-align: center;
+    align-items: center;
 }
-
-/* INICIO DE CONTATOS */
-
+.container-contacto > h1{
+    margin-bottom: 2rem;
+    color: #76A3EC;
+    font-size: 52px;
+    font-weight: 700;
+}
+.container-contacto > p{
+    font-size: 24px;
+}
+.contact-icons{
+    margin-top: 5rem;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.contact-icon{
+    filter: invert(22%) sepia(61%) saturate(443%) hue-rotate(178deg) brightness(96%) contrast(87%);
+    width: 60px;
+    height: auto;
+}
 
 
 /* ELEMENTOS GENERALES */
