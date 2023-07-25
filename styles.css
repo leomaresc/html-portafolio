@@ -15,8 +15,6 @@
     width: 100%;
     height: 650px;
 }
-
-/* ¡HERO! DIV del hero. (Ocupa el mismo ancho que el contenedor) */
 .hero-container{
     height: 100%;
     display: flex;
@@ -25,12 +23,10 @@
     align-items: center;
     gap: 5%;
 }
-/* ¡HERO! Hijos del DIV principal*/
 .hero-container > div{
     width: 20%;
     height: 45%;
 }
-/* ¡HERO! Primer div y sus hijos */
 .container1{
     display: flex;
     flex-direction: column;
@@ -38,7 +34,6 @@
     gap: 10%;
 }
 
-/* ¡HERO! Nombre, iconos y boton de contacto. */
 .container1 > div{
     height: 20%;
 }
@@ -72,7 +67,6 @@
     text-decoration: none;
 }
 
-/*¡HERO! Imagen de perfil. */
 .container2{
     display: flex;
     flex-direction: column;
@@ -107,7 +101,6 @@
 .profile-picture-hero:hover{
     scale: 1.1;
 }
-/* ¡HERO! Introducción en HERO */
 
 .container3{
     color: white;
@@ -117,7 +110,6 @@
     gap: 10%;
 }
 
-/* FINAL HERO CABECERA */
 
 
 /* INICIO SALUDO */
@@ -155,8 +147,6 @@
     text-align: center;
     padding: 0 1rem 0 1rem;
 }
-
-/* FINAL SALUDO */
 
 /* HABILIDADES INICIO */
 
@@ -203,8 +193,6 @@
     margin-bottom: 7rem;
 }
 
-/* FIN DE HABILIDADES */
-
 /* INICIO DE CONTATOS */
 
 #contacto{
@@ -213,6 +201,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 5rem;
 }
 .container-contacto{
     width: 50%;
@@ -243,6 +232,25 @@
     height: auto;
 }
 
+/* FOOTER */
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 180px;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 80%;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
 
 /* ELEMENTOS GENERALES */
 
