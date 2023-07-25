@@ -342,4 +342,19 @@
     .skill-card > h2, p{
         width: 100%;
     }
+    .skill-icon{
+        float: left;
+        width: 80px;
+        margin-right: 4rem;
+        filter: invert(84%) sepia(48%) saturate(5814%) hue-rotate(190deg) brightness(98%) contrast(88%);
+    }
+    .contact-icon{
+        filter: invert(22%) sepia(61%) saturate(443%) hue-rotate(178deg) brightness(96%) contrast(87%);
+        width: 60px;
+        height: auto;
+    }
+    .contact-icons{
+        display: flex;
+        gap: 120px;
+    }
 }
