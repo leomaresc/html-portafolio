@@ -261,7 +261,7 @@
     justify-content: center;
 }
 
-@media (max-width: 820px){
+@media (max-width: 834px){
 
 
     /* HERO MOBILE */
@@ -275,7 +275,7 @@
     }
     #hero{
         width: 100%;
-        height: 1200px;
+        height: 1000px;
     }
     .hero-container{
         height: 100%;
@@ -330,12 +330,12 @@
         width: 90%;
     }
 
-    #habilidades{
-        height: 1000px;
-    }
-
     /* HABILIDADES */
 
+    #habilidades{
+        height: 900px;
+        margin-bottom: 0;
+    }
     .skills{
         width: 100%;
     }
@@ -348,6 +348,7 @@
         margin-right: 4rem;
         filter: invert(84%) sepia(48%) saturate(5814%) hue-rotate(190deg) brightness(98%) contrast(88%);
     }
+    /* CONTACTO */
     .contact-icon{
         filter: invert(22%) sepia(61%) saturate(443%) hue-rotate(178deg) brightness(96%) contrast(87%);
         width: 60px;
@@ -356,5 +357,73 @@
     .contact-icons{
         display: flex;
         gap: 120px;
+    }
+    .footer-container{
+        width: 90%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 428px){
+
+    /* HERO */
+
+    #hero{
+        height: 800px;
+    }
+    .container1{
+        padding-top: 2rem;
+    }
+    .my-name{
+        font-size: 24px;
+    }
+    .hero-contact-button{
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    .hero.icon{
+        width: 30px;
+    }
+
+    /* GREETING */
+
+    .divider-small{
+        width: 70%;
+    }
+    .greetings > p{
+        margin-top: 2rem;
+    }
+
+    /* SKILLS */
+
+    #habilidades{
+        height: 1000px;
+    }
+    .skills > h1{
+        text-align: center;
+        margin-bottom: 6rem;
+    }
+    .skill-card > h2{
+        font-size: 30px;
+    }
+    .skill-icon{
+        margin-right: 2rem;
+    }
+
+    /* CONTACTO */
+
+    .contact-icon{
+        width: 30px;
+    }
+    .contact-icons{
+        gap: 5rem;
+    }
+
+    /* FOOTER */
+    #footer{
+        height: 100px;
+    }
+    .footer-container{
+        font-size: 8px;
     }
 }
